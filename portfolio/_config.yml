@@ -1,0 +1,38 @@
+title: Julius Wolf
+description: Electrical Engineering Student & Embedded Systems Enthusiast
+author: Julius Wolf
+email: julius.wolf@rwth-aachen.de
+url: "https://jwb1111.github.io"
+baseurl: ""
+
+# Disable default theme — we use our own CSS
+theme: null
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
