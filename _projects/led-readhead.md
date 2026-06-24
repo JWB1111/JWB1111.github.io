@@ -1,42 +1,41 @@
 ---
 layout: project
 title: LED Optical Readhead
-subtitle: Precision optical sensor for pulse detection using LED technology
+subtitle: Optical sensor for pulse detection using LED technology for Data Transmission with Galvanic Isolation
 category: Embedded Systems · Optics
 skills:
   - Circuit Design
   - C++
-  - Optics
   - Signal Processing
   - Analog Electronics
 specs:
   - key: Project Type
-    value: Personal / Academic
+    value: Work related
   - key: Domain
-    value: Embedded Systems, Optics, Sensor Design
+    value: Embedded Systems, Optics, Data Transmission
   - key: Status
     value: Completed
   - key: Tools Used
-    value: "[Add your tools here, e.g. KiCad, oscilloscope, C++]"
+    value: "[LTSpice, soldering iron, PuTTy, oscilloscope]"
 ---
 
 ## Motivation
 
 <!-- Describe why you built this. What problem did it solve? What interested you about it? -->
 
-[Write your introduction here. What is an LED readhead and why did you build one?]
+There was a need to read out values from a fully produced device to confirm that production values are correctly set. Due to the nature of the project having high security standards a direkt connection to the motherboard via header is not possible.
 
 ## Design Approach
 
 <!-- Explain your thinking: what were the key design decisions? -->
 
-[Describe how you approached the design — optical path, LED selection, detector circuit, etc.]
+The PCB layout and first circuit were given to me by the hardware developement. There were two options. One of them was a litte bit more complex the other simpler but less robust an needed more work to find the operatig point. In the end the decision fell in favor of the simper circuit due to almost same reliailty at a lower cost.
 
 ## Implementation
 
 <!-- Walk through how you built it, step by step -->
 
-[Describe the build process: schematic, PCB or breadboard, firmware, assembly.]
+![schematic](/assets/schmatic_reader.jpg)
 
 ## Challenges & Solutions
 
