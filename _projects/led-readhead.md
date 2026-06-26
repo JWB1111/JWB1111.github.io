@@ -16,7 +16,7 @@ specs:
   - key: Status
     value: Completed
   - key: Tools Used
-    value: "[LTSpice, soldering iron, PuTTy, oscilloscope]"
+    value: "[KiCad, soldering iron, PuTTy, oscilloscope]"
 ---
 
 ## Motivation
@@ -29,19 +29,20 @@ There was a need to read out values from a fully produced device to confirm that
 
 <!-- Explain your thinking: what were the key design decisions? -->
 
-The PCB layout and first circuit were given to me by the hardware developement. There were two options. One of them was a litte bit more complex the other simpler but less robust an needed more work to find the operatig point. In the end the decision fell in favor of the simper circuit due to almost same reliailty at a lower cost.
+The PCB layout and first circuit were given to me by the hardware developement. There were two options. One of them was a litte bit more complex the other one simpler but less robust an needed more work to find the operatig point. In the end the decision fell in favor of the simper circuit due to almost same reliailty at a lower cost.
 
 ## Implementation
 
 <!-- Walk through how you built it, step by step -->
 
-![schematic](/assets/schmatic_reader.jpg)
+<!![schematic](/assets/schmatic_reader.jpg)>
+
 
 ## Challenges & Solutions
 
 <!-- What went wrong? What did you learn? This is the most interesting part for recruiters. -->
 
-[Describe one or two concrete problems you encountered and how you solved them.]
+The resistor R1 was used to set the operating point for the phototransistors. This proved more challenging than expected. Since the software and hardware development worked simultaniopusly it sometimes happend that you found a good srtting with the oscilloscope but when reading out the values via puTTy issues occured. So it went back to the lap, trying to improve 
 
 ## Results
 
