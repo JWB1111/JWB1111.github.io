@@ -35,8 +35,6 @@ The PCB layout and first circuit were given to me by the hardware developement. 
 
 <!-- Walk through how you built it, step by step -->
 
-<!![schematic](/assets/schmatic_reader.jpg)>
-
 
 ## Challenges & Solutions
 
